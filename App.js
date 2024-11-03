@@ -76,6 +76,7 @@ const styles = StyleSheet.create({
   },
   innerContainer: {
     flex: 1,
+    flexDirection: 'column', // Asegura que los elementos se apilen verticalmente
     justifyContent: 'flex-start',
     alignItems: 'center',
     paddingHorizontal: 20,
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     width: '85%',
     maxWidth: 400,
-    alignSelf: 'center', 
+    alignSelf: 'center',
   },
   textInput: {
     flex: 1,
@@ -116,8 +117,8 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   taskList: {
-    flex: 1, // Ocupa el espacio para mostrar todas las tareas
-    width: '87%', // Asegura que ocupe todo el ancho
+    flex: 1, // ocupa el espacio para mostrar todas las tareas
+    width: '87%', // asegura que ocupe todo el ancho
   },
   taskContainer: {
     flexDirection: 'row',
@@ -126,7 +127,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#ddd',
     width: '100%',
-    paddingHorizontal: 10, // Espacio horizontal dentro de cada tarea
+    paddingHorizontal: 10, // espacio horizontal dentro de cada tarea
   },
   checkbox: {
     marginRight: 15,
@@ -151,5 +152,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
 });
+
 
 
